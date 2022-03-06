@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip N Stay</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd5c7c48a0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <nav id="navBar">
+            <img src="image/logo.png" class="logo">
+            <ul class="nav-links">
+                <li><a href="#">HangOut Places</a></li>
+                <li><a href="#">International Tour</a></li>
+                <li><a href="#">Travel Package</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <a href="#" class="register-btn">Register Now</a>
+            <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+        </nav>
+        <div class="container">
+            <h1>Find Your Next Hangout</h1>
+            <div class="search-bar">
+                <form>
+                    <div class="location-input">
+                        <label>Destination</label>
+                        <input type="text" placeholder="Where are you going?">
+                    </div>
+                    <div>
+                        <label>Check-In</label>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div>
+                        <label>Check-Out</label>
+                        <input type="text" placeholder="Add Date">
+                    </div>
+                    <div>
+                        <label>Guest</label>
+                        <input type="text" placeholder="Add Guest">
+                    </div>
+                    <button type="submit"><img src="image/search.png"></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="sub-titles">Luxurious Place</h2>
+        <div class="exclusives">
+            <div>
+                <img src="image/aust.jpg" alt="">
+                <span>
+                    <h3>Australia</h3>
+                    <p>Starts @$125</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/chicago.jpg" alt="">
+                <span>
+                    <h3>Chicago</h3>
+                    <p>Starts @$135</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/italy.jpg" alt="">
+                <span>
+                    <h3>Italy</h3>
+                    <p>Starts @$150</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/london.jpg" alt="">
+                <span>
+                    <h3>London</h3>
+                    <p>Starts @$150</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/netherland.jpg" alt="">
+                <span>
+                    <h3>Netherland</h3>
+                    <p>Starts @$100</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/newyork.jpg" alt="">
+                <span>
+                    <h3>New York</h3>
+                    <p>Starts @$200</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/paris.jpg" alt="">
+                <span>
+                    <h3>Paris</h3>
+                    <p>Starts @$225</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/sanfransisco.jpg" alt="">
+                <span>
+                    <h3>San Fransisco</h3>
+                    <p>Starts @$175</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/shanghai.jpg" alt="">
+                <span>
+                    <h3>Shanghai</h3>
+                    <p>Starts @$170</p>
+                </span>
+            </div>
+            <div>
+                <img src="image/switzerland.jpg" alt="">
+                <span>
+                    <h3>Switzerland</h3>
+                    <p>Starts @$200</p>
+                </span>
+            </div>
+        </div>
+
+        <h2 class="sub-titles">Trending Spot</h2>
+        <div class="trending">
+            <div>
+                <img src="image/dubai.jpg" alt="">
+                <h3>Dubai</h3>
+            </div>
+            <div>
+                <img src="image/delhi.jpg" alt="">
+                <h3>New Delhi</h3>
+            </div>
+            <div>
+                <img src="image/maldives.jpg" alt="">
+                <h3>Maldives</h3>
+            </div>
+            <div>
+                <img src="image/singapore.jpg" alt="">
+                <h3>Singapore</h3>
+            </div>
+        </div>
+        <div class="cta">
+            <h3>BEST <br> Travel Website</h3>
+            <p>Jobs fill your pockets, adventures fill your soul.</p>
+            <a href="#" class="cta-btn">Learn More</a>
+        </div>
+
+        <h2 class="sub-titles">Review</h2>
+        <div class="stories">
+            <div>
+                <img src="image/rev-1.jpg">
+                <p>High Quality, good service. I'll be returning!</p>
+            </div>
+            <div>
+                <img src="image/rev-2.jpg">
+                <p>Trip was Amazing. Thanks to Trip N Stay for guiding us.</p>
+            </div>
+            <div>
+                <img src="image/rev-3.jpg">
+                <p>Best exprience while travelling in Maldives.</p>
+            </div>
+        </div>
+        <a href="#" class="start-btn">Start Exploring</a>
+        <div class="about-msg">
+            <h2>About Trip N Stay</h2>
+            <p>MakeMyTrip is an Indian online travel company founded in 2000. Headquartered in Gurugram, Haryana, the
+                company provides online travel services including airline tickets, domestic and international holiday
+                packages, hotel reservations, rail, and bus tickets. As of 31 March 2018, they have 14 company-owned
+                travel stores in 14 cities, over 30 franchisee-owned travel stores in 28 cities, and counters in four
+                major airports in India.</p>
+        </div>
+
+        <div class="footer">
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <hr>
+            <p>Copyright © 2022 Trip N Stay</p>
+        </div>
+
+    </div>
+
+    <script>
+        var navBar=document.getElementById("navBar");
+        function togglebtn()
+        {
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+
+</html>
